@@ -1,14 +1,14 @@
-package com.carrion.edward.inactivityapp
+package com.carrion.edward.inactivityapp.base
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 
-
-class SecondActivity : AppCompatActivity() {
+abstract class BaseActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_second)
+        setContentView(getLayout())
     }
 
+    abstract fun getLayout(): Int
 }

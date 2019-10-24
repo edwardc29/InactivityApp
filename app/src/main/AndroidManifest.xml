@@ -13,7 +13,7 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
 
-        <activity android:name=".LoginActivity">
+        <activity android:name=".login.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,11 +22,11 @@
         </activity>
 
         <activity
-            android:name=".FirstActivity"
+            android:name=".features.FirstActivity"
             android:label="@string/title_activity_first" />
 
         <activity
-            android:name=".SecondActivity"
+            android:name=".features.SecondActivity"
             android:label="@string/title_activity_second" />
 
     </application>
