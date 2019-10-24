@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">InactivityApp</string>
+    <string name="user_name">User name</string>
+    <string name="password">Password</string>
+    <string name="enter">Enter</string>
+    <string name="title_activity_first">FirstActivity</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="step_1">Step 1</string>
+    <string name="step_2">Step 2</string>
+    <string name="next">Next</string>
+    <string name="logo">logo</string>
+</resources>
