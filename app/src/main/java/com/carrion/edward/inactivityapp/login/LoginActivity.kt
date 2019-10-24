@@ -17,4 +17,6 @@ class LoginActivity : BaseActivity() {
     }
 
     override fun getLayout(): Int = R.layout.activity_login
+
+    override fun shouldExpireSession(): Boolean = false
 }

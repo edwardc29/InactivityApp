@@ -9,4 +9,6 @@
     <string name="step_2">Step 2</string>
     <string name="next">Next</string>
     <string name="logo">logo</string>
+    <string name="accept">Aceptar</string>
+    <string name="session_message">Finalizó la sesión</string>
 </resources>
